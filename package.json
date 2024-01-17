@@ -1,0 +1,17 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "linux-start": "SCRIPT_PATH=/home/filiplx/code/SocialSpotterAPI/database-script.js node index.js",
+    "mac-start": "PATH_TO_SCRIPT= node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
